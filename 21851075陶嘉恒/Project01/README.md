@@ -21,6 +21,6 @@ IDE使用的Visual Studio 2017，配置参考
 
 ## 作业成果
 
-[代码](Homework1\Homework1\main.cpp)
+[代码](Homework1/Homework1/main.cpp)
 
 ![Homework1](Homework1.gif)
