@@ -4,8 +4,6 @@
 
 bool mouseLeftDown;
 bool mouseRightDown;
-GLfloat roate = 0.0;
-GLfloat rote = 0.0;
 GLfloat anglex = 0.0;
 GLfloat angley = 0.0;
 GLfloat anglez = 0.0;
@@ -25,8 +23,7 @@ void myDisplay(void){
     glRotatef(angley, 0, 1, 0);
     glRotatef(anglez, 0, 0, 1);
     glTranslatef(0, 0, distance);
-    
-    rote += roate;
+
 
     glutWireTeapot(2);
     
@@ -50,8 +47,6 @@ void mouse(int button, int state, int x, int y)
     {
         if (state == GLUT_DOWN)
         {
-            roate = 0;
-            rote = 0;
             oldx = x;
             oldy = y;
         }
@@ -61,8 +56,6 @@ void mouse(int button, int state, int x, int y)
     {
         if (state == GLUT_DOWN)
         {
-            roate = 0;
-            rote = 0;
             anglex = 0.0f;
             angley = 0.0f;
             anglez = 0.0f;
