@@ -11,7 +11,7 @@
 #include <glfw3.h>
 #include <GLUT/GLUT.h>
 
-static GLdouble axix = 0.0 ,axiy =0.0,axiz = 3.0;
+static GLdouble axix = 0.0 ,axiy =0.0,axiz = 5.0;
 
 void init(void)
 {
@@ -25,8 +25,7 @@ void display(void)
     glColor3f (1.0, 1.0, 0.0);
     glLoadIdentity ();
     /* 设置照相机 */
-    gluLookAt (axix, axiy, axiz, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
-    glScalef (1.0, 1.0, 1.0);
+    gluLookAt (axix, axiy, axiz, 0.0 , 0.0, 0.0, 0.0, 1.0, 0.0);
     /* 画茶壶 */
     glutWireTeapot(1.0);
     glFlush ();
