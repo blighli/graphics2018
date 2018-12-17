@@ -4,7 +4,7 @@
 
 IDE使用的是Visual Studio 2017
 
-实现了以下功能：
+### 基本实现了以下功能：
 
 - create a window
 - use shader
@@ -19,5 +19,6 @@ IDE使用的是Visual Studio 2017
 - add Specular Map
 - add light source of 3 different type
 
-效果展示：
+### 效果展示：
 
+![](https://raw.githubusercontent.com/yhcheer/graphics2018/master/21851423%E9%99%88%E5%AE%87%E6%99%96/MyGameEngine.gif)
