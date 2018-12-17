@@ -1,8 +1,6 @@
 #include<GLUT/GLUT.h>
 #include <math.h>
 #include <iostream>
-#define  GLUT_WHEEL_UP 3           //定义滚轮操作
-#define  GLUT_WHEEL_DOWN 4
 
 bool mouseLeftDown;
 bool mouseRightDown;
