@@ -1,0 +1,19 @@
+﻿  glad.c
+  main.cpp
+main.cpp(129): warning C4101: “texture2”: 未引用的局部变量
+main.cpp(225): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+main.cpp(252): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+main.cpp(253): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+main.cpp(257): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+main.cpp(258): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+main.cpp(260): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+main.cpp(261): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+main.cpp(270): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  stb_image_impl.cpp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  630 of 636 functions (99.1%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Lin-OpenGL-Project1.vcxproj -> E:\ry\3D\code\Lin-OpenGL-Project1\Release\Lin-OpenGL-Project1.exe
