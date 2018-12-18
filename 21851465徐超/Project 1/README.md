@@ -7,7 +7,7 @@ macOS Mojave 10.14.1、Xcode 10.1、macOS原生OpenGL.framework、macOS原生GLU
 
 ## 问题
 在macOS Mojave、Xcode 10环境下必须调用glutReshapeWindow，并且参数必须与glutInitWindowSize不同，否则会出现黑屏什么都不显示的问题
-`
+```
 void display() {
     glutReshapeWindow(windowWidth, windowHeight);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -17,7 +17,7 @@ void display() {
     glutWireTeapot(0.5);
     glutSwapBuffers();
 }
-`
+```
 参见：[Mac Mojave + opengl](https://stackoverflow.com/questions/52509427/mac-mojave-opengl)
 
 ## 演示
