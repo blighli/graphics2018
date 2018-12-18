@@ -1,9 +1,8 @@
-##概述
+概述
 基于glut框架实现的简单茶壶3D图形
 
-###Tips
+Tips
 -使用鼠标左键可以调节图形的方向
 -使用滚轮或者‘w’和‘s’键可以调节距离
 
-###Sample
-![image](./Project01/sample.gif)
+
