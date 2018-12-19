@@ -15,12 +15,19 @@
     将64位的 bin下的freeglut.dll 放入system32（实际用的过程就是这个 不是systemWOW64），
     然后将64位lib文件下的freeglut.lib 和include下的gl文件 放入VC的lib和include 的文件夹下。
    * 具体如下所示 <br>
-![freeglut](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/teapot/images/freeglut.png)
-![freeglut](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/teapot/images/freeglut.png)
-    环境就搭好了
+![freeglut](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/teapot/images/system32.png)
+![freeglut](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/teapot/images/安装处bin-lib.png)
+    环境就搭好了 ！！！！！
 <br>
 
 ## 项目功能
+### 视角
+        1. 白色光源定向投入
+        2. 摄像机嵌入
+### 操作
+        1. 鼠标拖拽 旋转方向
+        2. 中击拖拽 位置
+        3. 右击 复原
 
 ## 效果演示
 ![效果](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/teapot/images/ll.gif)
