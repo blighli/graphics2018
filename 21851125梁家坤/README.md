@@ -9,3 +9,13 @@
 
 ### Demo
 ![image](./project01/teapot_demo.gif)
+
+## SolarSystem
+基于 Glut 框架实现太阳、地球、月球之间的公转和自转模型
+
+### Content
+- 以太阳为光源实现光照
+- 分别使用图片对三个球体进行纹理映射
+
+### Demo
+![image](./project02/solarSystem_demo.gif)

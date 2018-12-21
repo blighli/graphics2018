@@ -1,0 +1,4 @@
+﻿  main.cpp
+e:\浙大软件学院\课程\冬学期\三维动画和交互设计\作业\graphics2018\21851125梁家坤\project02\opengl_secondhomework\opengl_secondhomework\head.h(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  OpenGL_SecondHomework.vcxproj -> E:\浙大软件学院\课程\冬学期\三维动画和交互设计\作业\graphics2018\21851125梁家坤\project02\OpenGL_SecondHomework\Debug\OpenGL_SecondHomework.exe
