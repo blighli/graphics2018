@@ -1,0 +1,10 @@
+﻿  start.cpp
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(187): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(275): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(276): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(280): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(281): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(284): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project01\start.cpp(293): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project01.vcxproj -> C:\Users\18361\source\repos\graphics2018\21860419刘超\HomeWork\Debug\Project01.exe
