@@ -6,7 +6,7 @@
 #+OPTIONS:   toc:nil num:0
 
 * DEPENDENCIES
-~PyOpenGL~ are required on all platfrom. For Linux, ~freeglut3-dev~ is also required, please install it via your package manager.
+~PyOpenGL~ is required on all platfrom. For Linux, ~freeglut3-dev~ is also required, please install it via your package manager.
 ~PyOpenGL_accelerate~ is optional.
 
 * PREVIEW
