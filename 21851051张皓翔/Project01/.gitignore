@@ -1,0 +1,5 @@
+﻿# 本项目的ignore
+
+Debug/
+.vs/
+*.VC.db
