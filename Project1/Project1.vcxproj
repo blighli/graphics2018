@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>E:\git\graphics2018\Project1\Includes;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\git\graphics2018\Project1\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\VSWorkSpace\21851080谢佳烽\Homework1\Project1\Includes;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\VSWorkSpace\21851080谢佳烽\Homework1\Project1\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -127,8 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="shader.h" />
-    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Project1.rc" />

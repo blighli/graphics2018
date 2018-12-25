@@ -1,3 +1,0 @@
-﻿  main.cpp
-glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\git\graphics2018\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-  Project1.vcxproj -> E:\git\graphics2018\Debug\Project1.exe
