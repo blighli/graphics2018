@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  OpenGLProject01.cpp
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(60): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(61): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(74): warning C4305: “-=”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(77): warning C4305: “+=”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(84): warning C4305: “-=”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(88): warning C4305: “+=”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(98): warning C4244: “初始化”: 从“GLfloat”转换到“GLint”，可能丢失数据
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(99): warning C4244: “初始化”: 从“GLfloat”转换到“GLint”，可能丢失数据
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(103): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+c:\users\asus\desktop\3d\src\21851020殷曜东\project01\openglproject01\openglproject01.cpp(104): warning C4244: “=”: 从“int”转换到“GLfloat”，可能丢失数据
+  OpenGLProject01.vcxproj -> C:\Users\asus\Desktop\3d\src\21851020殷曜东\Project01\Debug\OpenGLProject01.exe
