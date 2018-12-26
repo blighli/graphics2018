@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\yh\documents\github\yhengine\yhengine\main.cpp(232): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yh\documents\github\yhengine\yhengine\main.cpp(233): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\yh\documents\github\yhengine\yhengine\main.cpp(368): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  yhEngine.vcxproj -> C:\Users\yh\Documents\GitHub\yhEngine\Debug\yhEngine.exe

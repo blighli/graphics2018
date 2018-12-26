@@ -1,0 +1,17 @@
+#+TITLE:     ABOUT THIS PROJECT
+#+AUTHOR:    JuicyITer
+#+EMAIL:     contactme@juicyiter.com
+#+STARTUP:   indent
+#+LANGUAGE:  en
+#+OPTIONS:   toc:nil num:0
+
+* DEPENDENCIES
+~PyOpenGL~ is required on all platfrom. For Linux, ~freeglut3-dev~ is also required, please install it via your package manager.
+~PyOpenGL_accelerate~ is optional.
+
+* PREVIEW
+Run ~python3 drawTeapot.py~ to see this demo.
+
+#+CAPTION: Preview
+#+NAME: fig:preview
+[[./PREVIEW.GIF]]

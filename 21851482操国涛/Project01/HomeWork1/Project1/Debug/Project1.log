@@ -1,0 +1,4 @@
+﻿  test.cpp
+c:\users\16213\source\repos\project1\project1\test.cpp(192): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\16213\source\repos\project1\project1\test.cpp(202): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Project1.vcxproj -> C:\Users\16213\source\repos\Project1\Debug\Project1.exe

@@ -1,0 +1,5 @@
+﻿  glad.c
+  源1.cpp
+r:\vs2015\vc\include\vmath.h(1022): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  OpenGLHomework1.vcxproj -> R:\VS2015Project\OpenGLHomework1\Debug\OpenGLHomework1.exe
+  OpenGLHomework1.vcxproj -> R:\VS2015Project\OpenGLHomework1\Debug\OpenGLHomework1.pdb (Partial PDB)
