@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\GLWindow\QWnd.cpp">
+      <Filter>GLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLWindow\QWndApp.cpp">
+      <Filter>GLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GLWindow\GLWindow.cpp">
+      <Filter>GLWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDelegate.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="..\Tools\TextureLoader\TextureLoader.cpp">
+      <Filter>Tools\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tools\ShaderLoader\LoadShaders.cpp">
+      <Filter>Tools\ShaderLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tools\ScreenShot\ScreenShot.cpp">
+      <Filter>Tools\ScreenShot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\System\System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="..\GLWindow\QWnd.h">
+      <Filter>GLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLWindow\stdafx.h">
+      <Filter>GLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLWindow\QWndApp.h">
+      <Filter>GLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GLWindow\GLWindow.h">
+      <Filter>GLWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDelegate.h" />
+    <ClInclude Include="MainScene.h" />
+    <ClInclude Include="..\Tools\TextureLoader\TextureLoader.h">
+      <Filter>Tools\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\ShaderLoader\LoadShaders.h">
+      <Filter>Tools\ShaderLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tools\ScreenShot\ScreenShot.h">
+      <Filter>Tools\ScreenShot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\System\System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GLWindow">
+      <UniqueIdentifier>{2833157b-f410-43f6-9b8e-f5855d63d967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{0c92387b-6d4a-4f27-8783-8b1a5b1b2efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\TextureLoader">
+      <UniqueIdentifier>{198450a3-f01f-4843-af64-d0e4bbbc3bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ShaderLoader">
+      <UniqueIdentifier>{8d91dda6-90f9-410e-8f8c-3c89f6b7ee1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ScreenShot">
+      <UniqueIdentifier>{05119733-8ef0-475a-9e88-08526182f77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{3dcff4c8-12ce-459f-a875-1211ae8948dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
