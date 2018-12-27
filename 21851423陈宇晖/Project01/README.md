@@ -11,13 +11,27 @@ IDE使用的是Visual Studio 2017
 - add camera
 - accomplish keyboard callback
 - accomplish mouse callback
-
 - add texture
-
 - add phong light model
 - add a skybox
 - add Specular Map
 - add light source of 3 different type
+
+### 基本操作方法：
+
+W：前平移
+
+S：后平移
+
+A：左平移
+
+D：右平移
+
+Q：上平移
+
+E：下平移
+
+鼠标移动控制视角旋转
 
 ### 效果展示：
 
