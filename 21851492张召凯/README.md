@@ -6,17 +6,17 @@
 - 实现相机控制
 
 ## 作业环境
-- mac OS 10.13.6
+- mac OS 10.13.6
 - xcode(Version 10.1)+ GLUT.framework + OpenGL.framework
 
 ## 效果展示
 - ‘a’ 控制 放大
 - ‘s’ 控制 缩小
-- 鼠标左键（拖动） 控制 旋转（绕原点）
-- 鼠标右键（点击） 控制 旋转（绕Y轴）
+- 鼠标左键（拖动） 控制 旋转（绕原点）
+- 鼠标右键（点击） 控制 旋转（绕Y轴）
 
-![representation](representation.gif)
+![representation](project01/representation.gif)
 
-## 参考
+## 参考
 - https://blog.csdn.net/z8110/article/details/53816644
 - OpenGL编程指南
