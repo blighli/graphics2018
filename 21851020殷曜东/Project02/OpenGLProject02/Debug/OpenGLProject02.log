@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(20): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(20): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(63): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(63): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(93): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(103): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\users\asus\desktop\3d\src\21851020殷曜东\project02\openglproject02\main.cpp(105): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  OpenGLProject02.vcxproj -> C:\Users\asus\Desktop\3d\src\21851020殷曜东\Project02\Debug\OpenGLProject02.exe
