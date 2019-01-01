@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36CF9C0B-14F5-47BC-AFD4-2C9A010128F1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>opengl</RootNamespace>
+    <ProjectName>homework1</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../../Bin/Debug/</OutDir>
+    <IntDir>../../Objs/Debug/</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IncludePath>../../SDKs/freeglut/include;../../SDKs/glew/include;../../SDKs/glm;../../SDKs/GLTools/include;$(IncludePath)</IncludePath>
+    <LibraryPath>../../SDKs/freeglut/lib;../../SDKs/glew/lib;../../SDKs/GLTools/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../../Bin/Release/</OutDir>
+    <IntDir>../../Objs/Release/</IntDir>
+    <IncludePath>../../SDKs/freeglut/include;../../SDKs/glew/include;../../SDKs/glm;../../SDKs/GLTools/include;$(IncludePath)</IncludePath>
+    <LibraryPath>../../SDKs/freeglut/lib;../../SDKs/glew/lib;../../SDKs/GLTools/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>../../Bin/Debug/$(ProjectName)_d.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>../../Bin/Release/$(ProjectName).exe</OutputFile>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GLWindow\GLWindow.cpp" />
+    <ClCompile Include="..\GLWindow\QWnd.cpp" />
+    <ClCompile Include="..\GLWindow\QWndApp.cpp" />
+    <ClCompile Include="..\System\System.cpp" />
+    <ClCompile Include="..\Tools\ScreenShot\ScreenShot.cpp" />
+    <ClCompile Include="..\Tools\ShaderLoader\LoadShaders.cpp" />
+    <ClCompile Include="..\Tools\TextureLoader\TextureLoader.cpp" />
+    <ClCompile Include="AppDelegate.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GLWindow\GLWindow.h" />
+    <ClInclude Include="..\GLWindow\QWnd.h" />
+    <ClInclude Include="..\GLWindow\QWndApp.h" />
+    <ClInclude Include="..\GLWindow\stdafx.h" />
+    <ClInclude Include="..\System\System.h" />
+    <ClInclude Include="..\Tools\ScreenShot\ScreenShot.h" />
+    <ClInclude Include="..\Tools\ShaderLoader\LoadShaders.h" />
+    <ClInclude Include="..\Tools\TextureLoader\TextureLoader.h" />
+    <ClInclude Include="AppDelegate.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MainScene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
