@@ -1,7 +1,1 @@
-操作说明：
-上下左右或EGFD控制视角旋转
-W/S控制视角推拉
-Q/A改变torus模型精细度
-
-待改进的地方：
-1.目前视角推拉是通过模型体积的放大缩小来实现的，暂时没有学习到其他好的方法。
+![Image text](https://github.com/GolendOne1/graphics2018/blob/master/21851449%E9%87%91%E5%BE%B3%E4%B8%80/animHomework2/demoGif.gif)
