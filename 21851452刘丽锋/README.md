@@ -25,4 +25,19 @@ IDE使用的XCode，配置参考
 
 ## 作业成果
 
-![](project01.gif)
+![](./project01/project01.gif)
+
+
+# 编程作业2: SolarSystemOpenGL
+
+基于 Glut 框架实现太阳、地球、月球之间的公转和自转模型
+
+## Content
+
+* [x] 实现光照（太阳为光源）
+* [x] 纹理（太阳、地球、月亮）
+* [x] 星球自转、公转
+
+## Demo
+![](./project02/sun-earth-moon.gif)
+
