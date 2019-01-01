@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project02"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project02">
+				<Option output="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Project02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glad/include/glad"/>
+					<Add directory="/usr/local/Cellar/head"/>
+					<Add directory="/usr/local/Cellar/glfw/3.2.1/include/GLFW"/>
+					<Add directory="/usr/local/Cellar/glm/0.9.9.3/include/glm"/>
+					<Add directory="/usr/local/Cellar/glad/include/KHR"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project02"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project02/fast">
+				<Option output="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Project02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/glad/include/glad"/>
+					<Add directory="/usr/local/Cellar/head"/>
+					<Add directory="/usr/local/Cellar/glfw/3.2.1/include/GLFW"/>
+					<Add directory="/usr/local/Cellar/glm/0.9.9.3/include/glm"/>
+					<Add directory="/usr/local/Cellar/glad/include/KHR"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project02/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/glad.c">
+			<Option target="Project02"/>
+		</Unit>
+		<Unit filename="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/main.cpp">
+			<Option target="Project02"/>
+		</Unit>
+		<Unit filename="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/stb_image.cpp">
+			<Option target="Project02"/>
+		</Unit>
+		<Unit filename="/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
