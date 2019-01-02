@@ -20,3 +20,17 @@
 ## 参考
 - https://blog.csdn.net/z8110/article/details/53816644
 - OpenGL编程指南
+
+# 编程作业1：OpenGL基本程序
+## 作业内容
+- 基于glut框架
+- 1、光照--太阳为光源
+- 2、纹理--使用图片进行纹理映射
+
+## 作业环境
+- mac OS 10.13.6
+- xcode(Version 10.1)+ GLUT.framework + OpenGL.framework
+
+## 效果展示
+![representation](project02/representation.gif)
+
