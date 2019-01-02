@@ -13,4 +13,4 @@
 
 ## 效果图
 
-![效果](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/project2/效果.)
+![效果](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/Project2/效果.)
