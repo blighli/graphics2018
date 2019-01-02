@@ -8,6 +8,6 @@ Marveliu's Homework
 ## 演示
 ![homework1](./homework1.gif)
 
-#homework2
+# homework2
 基于glut框架实现太阳系的简易运转模型，实现将太阳作为光源，对太阳、地球、月亮表面图案的纹理映射。
 ![homework2](./homework2.gif)
