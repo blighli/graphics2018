@@ -1,0 +1,18 @@
+#+TITLE:     ABOUT THIS PROJECT
+#+AUTHOR:    Mengoreo
+#+EMAIL:     mengoreo@163.com
+#+STARTUP:   indent
+#+LANGUAGE:  en
+#+OPTIONS:   toc:nil num:0
+
+* DEPENDENCIES
+~PyOpenGL~ is required on all platfrom. For Linux, ~freeglut3-dev~ is also required, please install it via your package manager.
+~PyOpenGL_accelerate~ is optional.
+
+* PREVIEW
+Run ~python3 drawTeapot.py~ to see this demo.
+
+In project 01, I've already added the light features, and in this project, somehow, I failed to add both light and texture features, so I *only added the texture feature*.
+#+CAPTION: Preview
+#+NAME: fig:preview
+[[./PREVIEW.GIF]]
