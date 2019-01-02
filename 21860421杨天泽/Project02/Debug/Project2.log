@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\taen yang\source\repos\project2\project2\balldefinition.h(195): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+c:\users\taen yang\source\repos\project2\project2\balldefinition.h(196): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+c:\users\taen yang\source\repos\project2\project2\main.cpp(21): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+c:\users\taen yang\source\repos\project2\project2\main.cpp(52): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+c:\users\taen yang\source\repos\project2\project2\main.cpp(78): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\users\taen yang\source\repos\project2\project2\main.cpp(86): warning C4305: “参数”: 从“double”到“GLfloat”截断
+c:\users\taen yang\source\repos\project2\project2\main.cpp(88): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  Project2.vcxproj -> C:\Users\Taen Yang\source\repos\Project2\Debug\Project2.exe
