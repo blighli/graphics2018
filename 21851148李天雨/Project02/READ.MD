@@ -3,4 +3,4 @@
 
 
 ### Video
-![video](./Project02/solar.mov)
+![video](./solar.mov)
