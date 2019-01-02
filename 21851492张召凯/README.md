@@ -21,9 +21,9 @@
 - https://blog.csdn.net/z8110/article/details/53816644
 - OpenGL编程指南
 
-# 编程作业1：OpenGL基本程序
+# 编程作业2：OpenGL基本程序
 ## 作业内容
-- 基于glut框架
+- 基于glut框架,实现下列效果
 - 1、光照--太阳为光源
 - 2、纹理--使用图片进行纹理映射
 
