@@ -1,0 +1,29 @@
+﻿  glad.c
+  origin.cpp
+  stb_image.cpp
+  源.cpp
+d:\study\leanopengl\leanopengl\源.cpp(96): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(123): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(215): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(219): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(220): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(221): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(222): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\study\leanopengl\leanopengl\源.cpp(229): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(context.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(init.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(input.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(window.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_tls.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_tls.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\Study\leanOpenGL\Debug\glfw.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  leanOpenGL.vcxproj -> D:\Study\leanOpenGL\Debug\leanOpenGL.exe
