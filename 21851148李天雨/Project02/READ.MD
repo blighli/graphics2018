@@ -3,4 +3,4 @@
 
 
 ### Video
-![video](./solar.mov)
+![image](./solar-system.gif)
