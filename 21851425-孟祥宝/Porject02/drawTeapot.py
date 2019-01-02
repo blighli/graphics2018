@@ -84,7 +84,7 @@ def init():
 
 
     glLightfv(GL_LIGHT0, GL_POSITION, [4, 4, 4, 1])
-    lA = 0.8
+    lA = 1
     glLightfv(GL_LIGHT0, GL_AMBIENT, [lA, lA, lA, 1])
     lD = 1
     glLightfv(GL_LIGHT0, GL_DIFFUSE, [lD, lD, lD, 1])
@@ -99,7 +99,7 @@ def init():
     # glClearColor(0.0, 0.0, 0.0, 0.0)
     # glShadeModel(GL_FLAT)
     # glEnable(GL_DEPTH_TEST)
-    glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_DECAL)
+    glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE)
     glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT)
     glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT)
     glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST)
