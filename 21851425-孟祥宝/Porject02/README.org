@@ -12,7 +12,7 @@
 * PREVIEW
 Run ~python3 drawTeapot.py~ to see this demo.
 
-In project 01, I've already added the light features, and in this project, somehow, I failed to add both light and texture features, so I *only added the texture feature*.
+*In project 01, I've already added the light features*, and in this project, somehow, I failed to add both light and texture features, so I *only added the texture feature*.
 #+CAPTION: Preview
 #+NAME: fig:preview
 [[./PREVIEW.GIF]]
