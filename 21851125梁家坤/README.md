@@ -1,6 +1,6 @@
-# JKLiang's homework
+# Computer Animation and Interactive Technology
 
-## Teapot
+## 01 Teapot
 基于 Glut 框架实现一个简单的茶壶模型
 
 ### Content
@@ -10,7 +10,7 @@
 ### Demo
 ![image](./project01/teapot_demo.gif)
 
-## SolarSystem
+## 02 SolarSystem
 基于 Glut 框架实现太阳、地球、月球之间的公转和自转模型
 
 ### Content
@@ -19,3 +19,16 @@
 
 ### Demo
 ![image](./project02/solarSystem_demo.gif)
+
+## 03 3DModel
+基于 Glut 框架实现一个自定义的复杂三维模型
+
+### Content
+- 支持3DS三维模型文件格式
+- 支持多个光源的光照效果
+- 支持多种视点浏览方式
+	- 以模型为中心的平移旋转
+	- 以视点为中心的场景漫游
+
+### Demo
+![image](./project03/3DModel_demo.gif)

@@ -1,0 +1,5 @@
+﻿  3DS.CPP
+  MainApp.cpp
+e:\c++\testopengl\opengl_thirdhomework\opengl_thirdhomework\opengl_thirdhomework\mainapp.cpp(247): warning C4838: 从“int”转换到“BYTE”需要收缩转换
+  正在生成代码...
+  OpenGL_ThirdHomework.vcxproj -> E:\C++\TestOpenGL\OpenGL_ThirdHomework\OpenGL_ThirdHomework\Debug\OpenGL_ThirdHomework.exe
