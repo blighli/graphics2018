@@ -1,0 +1,28 @@
+﻿  源1.cpp
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(22): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(23): warning C4244: “初始化”: 从“GLfloat”转换到“unsigned int”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(25): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(39): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(40): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(50): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(51): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(62): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(63): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(85): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\headers\sphere.h(86): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(77): warning C4244: “参数”: 从“GLfloat”转换到“GLsizeiptr”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(90): warning C4244: “参数”: 从“GLfloat”转换到“GLsizeiptr”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(138): warning C4244: “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(161): warning C4244: “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(181): warning C4244: “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(204): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(231): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(232): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(236): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(237): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(239): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(240): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+r:\vs2015project\openglhomework2\openglhomework1\源1.cpp(249): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OpenGLHomework1.vcxproj -> R:\VS2015Project\OpenGLHomework2\Debug\OpenGLHomework1.exe
+  OpenGLHomework1.vcxproj -> R:\VS2015Project\OpenGLHomework2\Debug\OpenGLHomework1.pdb (Partial PDB)
