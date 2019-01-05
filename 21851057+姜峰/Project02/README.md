@@ -5,4 +5,4 @@
 纹理文件:   
 ![avatar](./jiangfeng.jpg)  
 映射结果:
-![avatar](./result.jpg)  
+![avatar](./result.png)  
