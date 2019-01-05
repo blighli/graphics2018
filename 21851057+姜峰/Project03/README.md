@@ -1,4 +1,4 @@
-# PyOpenGL + PyGame加载obj模型文件实现复杂三维模型的显示
+### 使用PyOpenGL + PyGame加载obj模型文件实现复杂三维模型的显示
 
 run: python2 test.py classroom.obj
 
