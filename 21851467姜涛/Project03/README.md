@@ -16,5 +16,6 @@
 			####通过鼠标左键实现旋转、右键控制物体平移、滚轮实现放缩。
 			####通过键盘方向键实现场景漫游：左右方向键实现摄像机镜头方向、上下方向键控制物体前进和后退
 
-							![image](https://github.com/tao-j13/graphics2018/blob/master/21851467%E5%A7%9C%E6%B6%9B/Project03/show.gif?raw=true)
+
+![image](https://github.com/tao-j13/graphics2018/blob/master/21851467%E5%A7%9C%E6%B6%9B/Project03/show.gif?raw=true)
 		
