@@ -1,0 +1,10 @@
+﻿  nolight.cpp
+d:\codes\vscode\testglut\testglut\nolight.cpp(95): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(169): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(170): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(174): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(175): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(177): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(178): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\codes\vscode\testglut\testglut\nolight.cpp(187): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  TestGlut.vcxproj -> D:\Codes\vscode\TestGlut\Debug\TestGlut.exe
