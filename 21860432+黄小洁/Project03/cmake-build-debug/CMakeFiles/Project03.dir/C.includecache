@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hxj/graphics2018/21860432+黄小洁/Project03/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad.h
+-
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+
+/usr/local/Cellar/glad/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/usr/local/Cellar/glad/include/glad/glad.h
+windows.h
+-
+khrplatform.h
+-
+
