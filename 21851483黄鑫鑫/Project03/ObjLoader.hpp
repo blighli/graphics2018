@@ -1,10 +1,3 @@
-//
-//  ObjLoader.hpp
-//  StudyOpengl
-//
-//  Created by 贺晨韬 on 2019/1/6.
-//  Copyright © 2019 贺晨韬. All rights reserved.
-//
 
 #ifndef ObjLoader_hpp
 #define ObjLoader_hpp

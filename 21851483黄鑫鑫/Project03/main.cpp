@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 //模型路径
-string filePath = "/Users/hechentao/openglproject/StudyOpengl/StudyOpengl/Resource/teddy.obj";
+string filePath = "/Users/hxx/openglproject/StudyOpengl/StudyOpengl/Resource/teddy.obj";
 
 ObjLoader objModel = ObjLoader(filePath);
 
