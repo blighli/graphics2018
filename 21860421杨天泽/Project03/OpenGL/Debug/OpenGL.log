@@ -1,0 +1,32 @@
+﻿  main.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\maths\mat4.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\main.cpp(56): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\main.cpp(66): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\main.cpp(75): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\main.cpp(96): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+  buffer.cpp
+  indexbuffer.cpp
+  vertexarray.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\buffer\vertexarray.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+  cameraRPG.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\maths\mat4.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\camerarpg.cpp(41): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\camerarpg.cpp(165): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  shader.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\maths\mat4.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  Window.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\maths\mat4.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\window.cpp(75): error C2664: “void (GLDEBUGPROC,const GLvoid *)”: 无法将参数 1 从“overloaded-function”转换为“GLDEBUGPROC”
+  c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\window.cpp(75): note: 在匹配目标类型的范围内没有具有该名称的函数
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\window.cpp(168): error C2373: “glDebugOutput”: 重定义；不同的类型修饰符
+  c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\graphics\window.cpp(8): note: 参见“glDebugOutput”的声明
+  mat4.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\maths\mat4.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  vec2.cpp
+  vec3.cpp
+  vec3u.cpp
+  vec4.cpp
+  models.cpp
+c:\users\taen yang\desktop\github\graphics2018\21851469王阳洋\week3\opengl\source\maths\mat4.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  fileutils.cpp
+  正在生成代码...
