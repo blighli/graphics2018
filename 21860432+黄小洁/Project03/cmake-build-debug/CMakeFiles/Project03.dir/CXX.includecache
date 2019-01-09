@@ -1692,20 +1692,6 @@ detail/setup.hpp
 detail/func_vector_relational.inl
 /usr/local/Cellar/glm/0.9.9.3/include/glm/detail/func_vector_relational.inl
 
-/usr/local/Cellar/head/Shader.h
-glad.h
--
-glm.hpp
--
-string
--
-fstream
--
-sstream
--
-iostream
--
-
 /usr/local/Cellar/head/camera.h
 glad.h
 -
@@ -1723,7 +1709,7 @@ glm.hpp
 -
 gtc/matrix_transform.hpp
 -
-Shader.h
+shader.h
 -
 string
 -
@@ -1753,7 +1739,7 @@ postprocess.h
 -
 mesh.h
 -
-Shader.h
+shader.h
 -
 string
 -

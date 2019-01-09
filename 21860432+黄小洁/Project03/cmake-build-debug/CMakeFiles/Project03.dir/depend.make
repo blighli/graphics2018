@@ -236,7 +236,6 @@ CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/glm/0.9.9.3/include/glm/v
 CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/glm/0.9.9.3/include/glm/vec3.hpp
 CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/glm/0.9.9.3/include/glm/vec4.hpp
 CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/glm/0.9.9.3/include/glm/vector_relational.hpp
-CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/head/Shader.h
 CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/head/camera.h
 CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/head/mesh.h
 CMakeFiles/Project03.dir/main.cpp.o: /usr/local/Cellar/head/model.h
