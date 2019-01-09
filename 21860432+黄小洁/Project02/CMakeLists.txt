@@ -16,7 +16,7 @@ include_directories(${GLAD_H} ${HEAD_H} ${GLFW_H} ${GLM_H} ${KHR_H})
 set(GLFW_LINK /usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.dylib)
 link_libraries(${OPENGL} ${GLFW_LINK})
 
-set(SOURCE_FILES glad.c main.cpp stb_image.cpp sphere.h)
+set(SOURCE_FILES glad.c main.cpp stb_image.cpp)
 add_executable(Project02 ${SOURCE_FILES})
 
 if (APPLE)
