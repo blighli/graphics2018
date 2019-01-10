@@ -46,4 +46,4 @@ E：下平移
 
 ### 效果展示：
 
-![](C:\Users\yh\Documents\GitHub\graphics2018\21851423陈宇晖\Project02\demo2.gif)
+![](https://raw.githubusercontent.com/yhcheer/graphics2018/master/21851423%E9%99%88%E5%AE%87%E6%99%96/Project02/demo2.gif)
