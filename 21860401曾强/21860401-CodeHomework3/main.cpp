@@ -96,8 +96,8 @@ int main() {
     }
 
     glEnable(GL_DEPTH_TEST);
-    Shader ourShader("/Users/hxj/graphics2018/21860432+黄小洁/Project03/shade.vs", "/Users/hxj/graphics2018/21860432+黄小洁/Project03/shade.fs");
-    Model ourModel("/Users/hxj/graphics2018/21860432+黄小洁/Project03/model/nanosuit.obj");
+    Shader ourShader("/Users/hxj/graphics2018/21860401+曾强/Project03/shade.vs", "/Users/hxj/graphics2018/21860401+曾强/Project03/shade.fs");
+    Model ourModel("/Users/hxj/graphics2018/21860401+曾强/Project03/model/nanosuit.obj");
     while (!glfwWindowShouldClose(window)) {
         float currentFrame = glfwGetTime();
         deltaTime = currentFrame - lastFrame;
