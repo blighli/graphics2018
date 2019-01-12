@@ -52,4 +52,6 @@ IDE使用的XCode，配置参考
     - 以视点为中心的漫游
 
 ## Demo
+![](./project03/demo3.gif)
+
 
