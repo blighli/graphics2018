@@ -34,3 +34,17 @@
 ## 效果展示
 ![representation](project02/representation.gif)
 
+# 编程作业3：复杂三维模型展示
+## 作业内容
+- 基于glut框架,实现下列效果
+- 1、加载obj模型问价
+- 2、支持多光源的光照效果
+- 3、支持多种视点浏览方式
+
+## 作业环境
+- mac OS 10.13.6
+- xcode(Version 10.1)+ GLUT.framework + OpenGL.framework
+
+## 效果展示
+![representation](project03/representation.gif)
+
