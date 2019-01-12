@@ -44,6 +44,8 @@ IDE使用的XCode，配置参考
 
 # 编程作业3： 模型载入
 
+[教程网址](https://learnopengl-cn.github.io/03%20Model%20Loading/03%20Model/)
+
 ## Content
 * [x] 支持obj模型文件格式
 * [x] 支持多个光源照亮效果
