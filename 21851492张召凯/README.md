@@ -46,5 +46,10 @@
 - xcode(Version 10.1)+ GLUT.framework + OpenGL.framework
 
 ## 效果展示
+- ‘a’     拉远视角
+- ‘s’     拉近视角
+- 鼠标左键 旋转物体
+- 鼠标右键 移动物体
+  
 ![representation](project03/representation.gif)
 
