@@ -1,0 +1,9 @@
+﻿  Project03.cpp
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(186): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(187): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(191): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(192): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(194): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(195): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+e:\图形学工程\21851051-张皓翔\project03\project03\project03.cpp(202): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+  Project03.vcxproj -> E:\图形学工程\21851051-张皓翔\Project03\Debug\Project03.exe

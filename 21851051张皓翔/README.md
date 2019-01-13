@@ -3,21 +3,21 @@
 姓名：张皓翔
 学号：21851051
 
+使用的库：
+
+- glfw
+
+- glew
+
+- glm (矩阵计算)
+
+- SOIL (图片加载)
+
 ---
 
 **Project01**
 
-  使用的库：
-
-* glfw
-
-* glew
-
-* glm (矩阵计算)  
-
-* SOIL (图片加载)
-
-  实现功能：
+实现功能：
 
 * 编写了自定义的Shader着色器文件读取方法
 
@@ -31,4 +31,42 @@
 
   演示片段：
 
-![image](https://github.com/wszhhx/MyImg/blob/master/project01DEMO.gif)
+![image](https://github.com/wszhhx/MyImg/blob/master/project01DEMO.gif?raw=true)
+
+---
+
+**Project02**
+
+实现功能：
+
+- 编写两套着色器，分别渲染太阳（光源）与其他行星。
+
+- 在片元着色器中实现了环境光照效果和漫反射效果
+
+- 自主完成球体顶点的计算和贴图ST坐标的换算已经行星运行轨道的算法
+
+- 为Camera增加了新的功能：锁定星球进行观察
+
+  演示片段：
+
+![image](https://github.com/wszhhx/MyImg/blob/master/project02DEMO.gif?raw=true)
+
+![image](https://github.com/wszhhx/MyImg/blob/master/project02DEMO2.gif?raw=true)
+
+---
+
+**Project03**
+
+实现功能：
+
+- 使用assimp库来加载复杂的模型
+
+- 添加多个光源进行照射
+
+- 实现多视角模式观察的相机
+
+  DEMO图片：
+
+  ![image](https://github.com/wszhhx/MyImg/blob/master/Project03DEMO.png?raw=true)
+
+  
