@@ -15,7 +15,7 @@
 
 ### 以模型为中心的平移旋转和缩放
 
-(https://github.com/AlphaShun/graphics2018/edit/master/21851461邓克顺/project03/tt.gif)
+![效果](https://github.com/AlphaShun/graphics2018/edit/master/21851461邓克顺/project03/tt.gif)
 ### 以视点为中心的场景漫游
 
 
