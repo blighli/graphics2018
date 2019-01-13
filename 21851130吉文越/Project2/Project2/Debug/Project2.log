@@ -1,0 +1,28 @@
+﻿  my.cpp
+f:\project2\project2\sphere.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\project2\project2\sphere.h(22): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+f:\project2\project2\sphere.h(23): warning C4244: “初始化”: 从“GLfloat”转换到“unsigned int”，可能丢失数据
+f:\project2\project2\sphere.h(24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(25): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(39): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(40): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(50): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(51): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(62): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(63): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(85): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\sphere.h(86): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(82): warning C4244: “参数”: 从“GLfloat”转换到“GLsizeiptr”，可能丢失数据
+f:\project2\project2\my.cpp(98): warning C4244: “参数”: 从“GLfloat”转换到“GLsizeiptr”，可能丢失数据
+f:\project2\project2\my.cpp(166): warning C4244: “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+f:\project2\project2\my.cpp(202): warning C4244: “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+f:\project2\project2\my.cpp(224): warning C4244: “参数”: 从“GLfloat”转换到“GLsizei”，可能丢失数据
+f:\project2\project2\my.cpp(247): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(274): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(275): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(279): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(280): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(282): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(283): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\project2\project2\my.cpp(292): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project2.vcxproj -> F:\Project2\Debug\Project2.exe
