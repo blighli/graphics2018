@@ -17,9 +17,9 @@
 
 ### 以模型为中心的平移旋转和缩放
 
-![效果]https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/project03/tt.gif)
+![效果](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/project03/tt.gif)
 ### 以视点为中心的场景漫游
 
 
 
-![SolarSystem](http://i.imgur.com/iY0HtjV.png)
+![SolarSystem](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/project03/res.png)
