@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/glad.c" "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/CMakeFiles/Project02.dir/glad.c.o"
+  "/Users/hxj/graphics2018/21860432+黄小洁/Project02/glad.c" "/Users/hxj/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/CMakeFiles/Project02.dir/glad.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -18,8 +18,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glad/include/KHR"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/main.cpp" "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/CMakeFiles/Project02.dir/main.cpp.o"
-  "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/stb_image.cpp" "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/CMakeFiles/Project02.dir/stb_image.cpp.o"
+  "/Users/hxj/graphics2018/21860432+黄小洁/Project02/main.cpp" "/Users/hxj/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/CMakeFiles/Project02.dir/main.cpp.o"
+  "/Users/hxj/graphics2018/21860432+黄小洁/Project02/stb_image.cpp" "/Users/hxj/graphics2018/21860432+黄小洁/Project02/cmake-build-debug/CMakeFiles/Project02.dir/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

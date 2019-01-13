@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/main.cpp
+/Users/hxj/graphics2018/21860432+黄小洁/Project02/main.cpp
 camera.h
 -
 shader.h
@@ -1487,6 +1487,10 @@ vector
 -
 
 /usr/local/Cellar/head/shader.h
+glad.h
+-
+glm.hpp
+-
 string
 -
 fstream
@@ -1497,6 +1501,8 @@ iostream
 -
 
 /usr/local/Cellar/head/sphere.h
+glad.h
+-
 cmath
 -
 

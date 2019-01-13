@@ -11,32 +11,31 @@
 
 using namespace std;
 
-const int SCR_WIDTH = 1000;
-const int SCR_HEIGHT = 800;
-float deltaTime = 0.0;
-float lastFTime = 0.0;
 
-Camera mycamera(glm::vec3(0.0f, 0.0f, 10.0f));
-double lastX = SCR_WIDTH / 2.0f;
-double lastY = SCR_HEIGHT / 2.0f;
+const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_HEIGHT = 600;
+
+// camera
+Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+float lastX = SCR_WIDTH / 2.0f;
+float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
 glm::vec3 lightPos(0.0f, 0.0f, 0.0f);
+// timing
+float deltaTime = 0.0f;
 
 void processInput(GLFWwindow *window) {
-
-    double currentFTime = glfwGetTime();
-    deltaTime = currentFTime - lastFTime;
-    lastFTime = currentFTime;
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        mycamera.ProcessKeyboard(FORWARD, deltaTime);
+        camera.ProcessKeyboard(FORWARD, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        mycamera.ProcessKeyboard(BACKWARD, deltaTime);
+        camera.ProcessKeyboard(BACKWARD, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        mycamera.ProcessKeyboard(LEFT, deltaTime);
+        camera.ProcessKeyboard(LEFT, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        mycamera.ProcessKeyboard(RIGHT, deltaTime);
+        camera.ProcessKeyboard(RIGHT, deltaTime);
 }
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
@@ -44,7 +43,6 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height) {
 }
 
 void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
-
     if (firstMouse) {
         lastX = xpos;
         lastY = ypos;
@@ -57,12 +55,11 @@ void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
     lastX = xpos;
     lastY = ypos;
 
-    mycamera.ProcessMouseMovement(xoffset, yoffset);
+    camera.ProcessMouseMovement(xoffset, yoffset);
 }
 
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
-
-    mycamera.ProcessMouseScroll(yoffset);
+    camera.ProcessMouseScroll(yoffset);
 }
 
 unsigned int loadjpg(char const *path) {
@@ -126,14 +123,14 @@ int main() {
         return -1;
     }
 
-    Shader sunShader("/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/sunshader.vs",
-                     "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/sunshader.fs");
-    Shader earthShader("/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/earthshader.vs",
-                       "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/earthshader.fs");
-    Shader moonShader("/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/moonshader.vs",
-                      "/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/moonshader.fs");
+    Shader sunShader("/Users/hxj/graphics2018/21860432+黄小洁/Project02/sunshader.vs",
+                     "/Users/hxj/graphics2018/21860432+黄小洁/Project02/sunshader.fs");
+    Shader earthShader("/Users/hxj/graphics2018/21860432+黄小洁/Project02/earthshader.vs",
+                       "/Users/hxj/graphics2018/21860432+黄小洁/Project02/earthshader.fs");
+    Shader moonShader("/Users/hxj/graphics2018/21860432+黄小洁/Project02/moonshader.vs",
+                      "/Users/hxj/graphics2018/21860432+黄小洁/Project02/moonshader.fs");
 
-    Sphere mySphere(90, 45);
+    Sphere mySphere(180, 90);
 
     //太阳
     unsigned int sunVBO, sunVAO;
@@ -171,9 +168,9 @@ int main() {
     glEnableVertexAttribArray(2);
 
     //加纹理
-    unsigned int sunTexture = loadjpg("/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/sun.jpg");
-    unsigned int earthDiffuse = loadjpg("/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/earth.jpg");
-    unsigned int moonDiffuse = loadjpg("/Users/hxj/Documents/graphics2018/21860432+黄小洁/Project02/moon.jpg");
+    unsigned int sunTexture = loadjpg("/Users/hxj/graphics2018/21860432+黄小洁/Project02/sun.jpg");
+    unsigned int earthDiffuse = loadjpg("/Users/hxj/graphics2018/21860432+黄小洁/Project02/earth.jpg");
+    unsigned int moonDiffuse = loadjpg("/Users/hxj/graphics2018/21860432+黄小洁/Project02/moon.jpg");
 
     glEnable(GL_DEPTH_TEST);
     while (!glfwWindowShouldClose(window)) {
@@ -186,14 +183,14 @@ int main() {
         //earth
         earthShader.use();
         earthShader.setVec3("light.position", lightPos);
-        earthShader.setVec3("viewPos", mycamera.Position);
+        earthShader.setVec3("viewPos", camera.Position);
 
         earthShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
         earthShader.setVec3("light.diffuse", 0.8f, 0.8f, 0.8f);
 
-        glm::mat4 earthProjection = glm::perspective(glm::radians(mycamera.Zoom),
+        glm::mat4 earthProjection = glm::perspective(glm::radians(camera.Zoom),
                                                      (float) SCR_WIDTH / (float) SCR_HEIGHT, 0.1f, 100.0f);
-        glm::mat4 earthView = mycamera.GetViewMatrix();
+        glm::mat4 earthView = camera.GetViewMatrix();
         earthShader.setMat4("projection", earthProjection);
         earthShader.setMat4("view", earthView);
 
@@ -217,14 +214,14 @@ int main() {
         //moon
         moonShader.use();
         moonShader.setVec3("light.position", lightPos);
-        moonShader.setVec3("viewPos", mycamera.Position);
+        moonShader.setVec3("viewPos", camera.Position);
 
         moonShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
         moonShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
 
-        glm::mat4 moonProjection = glm::perspective(glm::radians(mycamera.Zoom), (float) SCR_WIDTH / (float) SCR_HEIGHT,
+        glm::mat4 moonProjection = glm::perspective(glm::radians(camera.Zoom), (float) SCR_WIDTH / (float) SCR_HEIGHT,
                                                     0.1f, 10.0f);
-        glm::mat4 moonView = mycamera.GetViewMatrix();
+        glm::mat4 moonView = camera.GetViewMatrix();
         moonShader.setMat4("projection", moonProjection);
         moonShader.setMat4("view", moonView);
 
@@ -254,9 +251,9 @@ int main() {
         glBindTexture(GL_TEXTURE_2D, sunTexture);
 
         glm::mat4 sunView;
-        sunView = mycamera.GetViewMatrix();
+        sunView = camera.GetViewMatrix();
         glm::mat4 sunProjection;
-        sunProjection = glm::perspective(glm::radians(mycamera.Zoom), (float) SCR_WIDTH / (float) SCR_HEIGHT, 0.1f,
+        sunProjection = glm::perspective(glm::radians(camera.Zoom), (float) SCR_WIDTH / (float) SCR_HEIGHT, 0.1f,
                                          100.0f);
         sunShader.setMat4("view", sunView);
         sunShader.setMat4("projection", sunProjection);
