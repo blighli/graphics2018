@@ -23,9 +23,10 @@
     GLdouble centerx,GLdouble centery,GLdouble centerz, 
     GLdouble upx,GLdouble upy,GLdouble upz);
 
-   [漫游参考](https://blog.csdn.net/u010223072/article/details/44620871)
+   [相机漫游-3D-World--参考](https://blog.csdn.net/u010223072/article/details/44620871)
    
    <br>
 最终效果
+<br>
 ![效果](https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/project03/tt.gif)
 
