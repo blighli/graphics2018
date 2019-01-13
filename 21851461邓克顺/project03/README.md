@@ -11,11 +11,13 @@
 
 ## 支持多个光源的光照效果
 
+
 ## 支持多种视点浏览方式
+
 
 ### 以模型为中心的平移旋转和缩放
 
-![效果](https://github.com/AlphaShun/graphics2018/edit/master/21851461邓克顺/project03/tt.gif)
+![效果]https://github.com/AlphaShun/graphics2018/blob/master/21851461%E9%82%93%E5%85%8B%E9%A1%BA/project03/tt.gif)
 ### 以视点为中心的场景漫游
 
 
