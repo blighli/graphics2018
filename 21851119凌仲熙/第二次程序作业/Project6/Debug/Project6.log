@@ -1,0 +1,24 @@
+﻿  a.cpp
+c:\users\lingzhongxi\desktop\salary\a.cpp(263): warning C4326: “main”的返回类型应为“int”而非“void”
+  Texture.cpp
+  正在生成代码...
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutInitWindowPosition@8，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutInitWindowSize@8，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutInitDisplayMode@4，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutMainLoop@0，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutReshapeWindow@8，该符号在函数 "void __cdecl arrow_keys(int,int,int)" (?arrow_keys@@YAXHHH@Z) 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutPositionWindow@8，该符号在函数 "void __cdecl arrow_keys(int,int,int)" (?arrow_keys@@YAXHHH@Z) 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutFullScreen@0，该符号在函数 "void __cdecl arrow_keys(int,int,int)" (?arrow_keys@@YAXHHH@Z) 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutSwapBuffers@0，该符号在函数 "void __cdecl Display(void)" (?Display@@YAXXZ) 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutIdleFunc@4，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutKeyboardFunc@4，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutSpecialFunc@4，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutReshapeFunc@4，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp__glutDisplayFunc@4，该符号在函数 _main 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp____glutInitWithExit@12，该符号在函数 _glutInit_ATEXIT_HACK@8 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 __imp____glutCreateWindowWithExit@8，该符号在函数 _glutCreateWindow_ATEXIT_HACK@4 中被引用
+a.obj : error LNK2019: 无法解析的外部符号 "int __cdecl BuildTexture(char const *,unsigned int &)" (?BuildTexture@@YAHPBDAAI@Z)，该符号在函数 "void __cdecl InitGL(void)" (?InitGL@@YAXXZ) 中被引用
+E:\nupengl.core.0.1.0.1\build\native\lib\x64\glfw3dll.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\nupengl.core.0.1.0.1\build\native\lib\x64\glew32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\nupengl.core.0.1.0.1\build\native\lib\x64\freeglut.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\lingzhongxi\source\repos\Project6\Debug\Project6.exe : fatal error LNK1120: 16 个无法解析的外部命令
