@@ -59,9 +59,9 @@ def reshape(w, h):
 
 def keyborad(key, x, y):
     global currSize, zoomStep
-    if key == 'x':
+    if key == GLUT_KEY_UP:
         currSize += zoomStep
-    elif key == 'y':
+    elif key == GLUT_KEY_DOWN:
         currSize -= zoomStep
 
 def main():
