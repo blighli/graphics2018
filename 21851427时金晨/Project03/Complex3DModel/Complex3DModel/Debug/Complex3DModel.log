@@ -1,0 +1,22 @@
+﻿  complex3dmodel.cpp
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(25): warning C4005: “NEAR”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(151): note: 参见“NEAR”的前一个定义
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(26): warning C4005: “FAR”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\shared\minwindef.h(150): note: 参见“FAR”的前一个定义
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(72): warning C4473: “fscanf_s”: 没有为格式字符串传递足够的参数
+  d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(72): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(72): note: 缺失的可变参数 2 为格式字符串“%s”所需
+  d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(72): note: 此参数用作缓冲区大小
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(288): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(291): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(294): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(297): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(300): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(303): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(327): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(330): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(369): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(370): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(371): warning C4305: “参数”: 从“double”到“float”截断
+d:\newfiles\opengl\test\complex3dmodel\complex3dmodel\complex3dmodel.cpp(372): warning C4305: “参数”: 从“double”到“float”截断
+  Complex3DModel.vcxproj -> D:\newfiles\opengl\Test\Complex3DModel\Debug\Complex3DModel.exe
