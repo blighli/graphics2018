@@ -1,0 +1,21 @@
+﻿  glad.c
+  start.cpp
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(200): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(235): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(236): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(243): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(244): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(251): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(252): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(259): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(260): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(268): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(269): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(371): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(372): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(376): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(377): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(379): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(380): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\18361\source\repos\graphics2018\21860419刘超\homework\project02\start.cpp(389): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Project02.vcxproj -> C:\Users\18361\source\repos\graphics2018\21860419刘超\HomeWork\Debug\Project02.exe
