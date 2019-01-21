@@ -1,0 +1,46 @@
+﻿  gl3w.c
+  sphere.cpp
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\deps\lxt\sphere.cpp(11): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\deps\lxt\sphere.cpp(104): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Camera.cpp
+  DrawCommand.cpp
+  main.cpp
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(41): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(46): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(51): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(56): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(82): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(87): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\main.cpp(94): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  ModelLoader.cpp
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\modelloader.cpp(123): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\modelloader.cpp(123): warning C4244: “初始化”: 从“__int64”转换到“const int”，可能丢失数据
+  mymath.cpp
+  Shader.cpp
+  Shapes.cpp
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\shapes.cpp(34): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  Texture.cpp
+  正在生成代码...
+c:\users\xys\documents\课程\计算机动画和交互技术\作业\openglhomework01\openglhomework01\modelloader.cpp(111): warning C4715: “ModelLoader::loadShapeFromFile”: 不是所有的控件路径都返回值
+main.obj : error LNK2019: 无法解析的外部符号 glfwInit，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwDestroyWindow，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetWindowShouldClose，该符号在函数 "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetFramebufferSize，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwGetCursorPos，该符号在函数 "void __cdecl mouseBtn_callback(struct GLFWwindow *,int,int,int)" (?mouseBtn_callback@@YAXPEAUGLFWwindow@@HHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwCreateStandardCursor，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetCursor，该符号在函数 "void __cdecl mouseBtn_callback(struct GLFWwindow *,int,int,int)" (?mouseBtn_callback@@YAXPEAUGLFWwindow@@HHH@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetKeyCallback，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetMouseButtonCallback，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetCursorPosCallback，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSetScrollCallback，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，该符号在函数 main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 glfwSwapInterval，该符号在函数 "void __cdecl initGLFW(void)" (?initGLFW@@YAXXZ) 中被引用
+C:\Users\xys\Documents\课程\计算机动画和交互技术\作业\OpenGLHomework01\OpenGLHomework01\..\lib\Debug\glm_static.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\xys\Documents\课程\计算机动画和交互技术\作业\OpenGLHomework01\OpenGLHomework01\..\lib\Debug\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\xys\Documents\课程\计算机动画和交互技术\作业\OpenGLHomework01\x64\Debug\OpenGLHomework01.exe : fatal error LNK1120: 19 个无法解析的外部命令
